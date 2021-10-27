@@ -1,5 +1,5 @@
 # Goal
-The goal of this project was to demonstate my technical knowledge of full-stack.
+The goal of this project was to demonstate my technical knowledge of full-stack as part of the API Developer Challenge part of the DALI Lab Application.
 
 ## Tools Used
 I used the following tools:
