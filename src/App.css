@@ -1,38 +1,110 @@
 .App {
   text-align: center;
+  background-color: rgb(15, 119, 41);
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#login{
   color: white;
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 
-.App-link {
-  color: #61dafb;
+#questions{
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question{
+  padding: 0.5em;
+}
+
+.question2{
+  padding-bottom: 0.5em;
+}
+
+#loginToPortal{
+  margin-top: 1em;
+}
+
+#choices{
+  padding-top: 2em;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#loginButton{
+  margin-right: 2em;
+}
+
+#loginButton, #signUpButton{
+  background-color: white;
+  color: green;
+  font-size: 1.4em;
+}
+
+#buttons{
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+#halloween{
+  margin-bottom: 8em;
+}
+
+#signUptoPortal{
+  margin-top: 1em;
+}
+
+#portal{
+  padding-top: 2em;
+  color:white;
+}
+
+#portalName{
+  padding-top: 0.5em;
+  margin: auto;
+  font-size: 2em;
+  color: rgba(0, 59, 73, 0.788);
+  background: url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
+  background-position: center;
+  width: 50%;
+  text-align: center;
+}
+
+#pic_goals{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#portalPic{
+  width: 28em;
+  height: 30em;
+  overflow: hidden;
+}
+
+#portalGoals{
+  width: 20%;
+  margin-left: 4em;
+}
+
+#portalYear{
+  margin-top: 3em;
+}
+
+#mapComponent{
+  padding-bottom: 3em;
+}
+
+#map{
+  width: 80%;
+  margin: auto;
+  justify-content: center;
 }
